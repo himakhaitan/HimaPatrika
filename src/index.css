@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #fffbf4;
+  font-family: "Poppins", sans-serif;
+  padding: 3rem 5rem;
+}
+p {
+  color: #353535;
+  font-size: 1.2rem;
+  font-family: "Raleway", sans-serif;
+}
+/* 650006 */
+
+::selection {
+  background-color: #353535;
+  color: #fffbf4;
+}
