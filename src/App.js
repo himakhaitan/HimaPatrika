@@ -3,6 +3,8 @@ import "./App.css";
 // Components
 import Navigation from "./components/Structure/Navigation";
 import Quotes from "./components/UI/Quotes";
+import Typewriter from "typewriter-effect";
+
 function App() {
   return (
     <div className="App">
@@ -16,7 +18,20 @@ function App() {
           <img className="owner--img" src="./images/me.jpg" />
         </div>
         <div className="ownerDetails">
-          <h4>Namaste, This is</h4>
+          <h4>
+            <Typewriter
+              options={{
+                strings: [
+                  "Namaste! This is",
+                  "Hola! This is",
+                  "Bonjour! This is",
+                  "Ciao! This is",
+                ],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </h4>
           <h2>Himanshu Khaitan.</h2>
           <h2>adding Values while acquiring skills</h2>
           <p>
