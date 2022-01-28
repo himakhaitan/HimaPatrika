@@ -1,0 +1,58 @@
+.button {
+  display: inline-block;
+  padding: 1rem 2.3rem;
+  text-decoration: none;
+  font-size: 1.4rem;
+  border-radius: 0.25rem;
+  transition: all 2s;
+  user-select: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+.button:hover {
+  box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.3);
+  transform: scale(1.04);
+}
+
+.buttonBlackfill {
+  background: #242424;
+  color: #fff;
+  border: none;
+  border: 2px solid #242424;
+}
+.buttonBlackfill:hover {
+  background: #181818;
+  color: #fff;
+}
+
+.buttonBlackoutline {
+  background: transparent;
+  border: 2px solid #242424;
+  color: #242424;
+}
+.buttonBlackoutline:hover {
+  color: #fff;
+  background: #181818;
+}
+
+.buttonRedfill {
+  background: #820000;
+  color: #fff;
+  border: none;
+  border: 2px solid #820000;
+}
+.buttonRedfill:hover {
+  background: #940303;
+  color: #fff;
+}
+
+.buttonRedoutline {
+  background: transparent;
+  border: 2px solid #820000;
+  color: #820000;
+}
+.buttonRedoutline:hover {
+  color: #fff;
+  background: #940303;
+}

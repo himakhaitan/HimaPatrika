@@ -6,6 +6,7 @@
 }
 .quotes > p {
   display: inline-block;
+  font-weight: 500;
 }
 
 .quotes > h6 {

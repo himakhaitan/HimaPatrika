@@ -1,4 +1,4 @@
-import "./Navigation.css";
+import "./styles/Navigation.css";
 
 import HorizontalRow from "../UI/HorizontalRow";
 

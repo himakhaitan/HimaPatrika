@@ -1,0 +1,23 @@
+.imageWrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 3rem 5rem;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(252, 249, 245, 0.88),
+      rgba(252, 249, 245, 0.88)
+    ),
+    url("../../../images/background.webp");
+  background-repeat: none;
+  background-size: cover;
+  backdrop-filter: blur(3px);
+  box-shadow: 0rem 4rem 6rem rgba(0, 0, 0, 0.3);
+}
+
+.colorWrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 3rem 5rem;
+}

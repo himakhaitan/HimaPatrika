@@ -1,4 +1,4 @@
-import "./Quotes.css";
+import "./styles/Quotes.css";
 
 import { ImQuotesLeft, ImQuotesRight } from "react-icons/im";
 import { BsDashLg } from "react-icons/bs";
