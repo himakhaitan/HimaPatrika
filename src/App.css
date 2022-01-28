@@ -3,3 +3,62 @@
   border-radius: 10px;
   min-height: 100vh;
 }
+
+.owner {
+  margin: 5rem 0rem;
+  padding: 0 4rem;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-column-gap: 4rem;
+  align-items: center;
+}
+
+.owner--img {
+  width: 25rem;
+  height: 25rem;
+  object-fit: cover;
+  border-radius: 50%;
+  outline: 2px solid #820000;
+  outline-offset: 1rem;
+  box-shadow: 0rem 3rem 6rem rgba(0, 0, 0, 0.2);
+}
+
+.owner__img--div {
+  position: relative;
+}
+
+.owner__img--div::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 47%;
+  left: 53%;
+  height: 26rem;
+  border-radius: 50%;
+  width: 26rem;
+  border: 2px solid #353535;
+  z-index: -1;
+}
+
+.ownerDetails > h4 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.ownerDetails > h2 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+
+.ownerDetails > h2:nth-of-type(1) {
+  color: #820000;
+}
+
+.ownerDetails > p {
+  margin: 2rem 0;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  text-transform: capitalize;
+}
