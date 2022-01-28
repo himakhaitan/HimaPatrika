@@ -26,6 +26,10 @@ body::-webkit-scrollbar-thumb {
   height: 5rem;
 }
 
+h2 {
+  font-size: 3.5rem;
+}
+
 p {
   color: #353535;
   font-size: 1.3rem;
@@ -36,4 +40,25 @@ p {
 ::selection {
   background-color: #353535;
   color: #fffbf4;
+}
+
+/* TypoGraphy */
+.__head {
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #820000;
+  margin-bottom: 0.5rem;
+}
+
+.whiteText {
+  color: rgba(252, 249, 245, 0.88);
+}
+
+.redText {
+  color: #820000;
+}
+
+.blackText {
+  color: #242424;
 }

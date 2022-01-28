@@ -1,10 +1,13 @@
 import "./styles/Home.css";
-
 import Button from "../components/UI/Button";
 import { ImageBack, ColorBack } from "../components/Layout/Wrapper";
 import Navigation from "../components/Structure/Navigation";
 import Quotes from "../components/UI/Quotes";
 import Typewriter from "typewriter-effect";
+import HorizontalRow from "../components/UI/HorizontalRow";
+import Footer from "../components/Structure/Footer";
+import { PortfolioData as ImageData } from "../data/main";
+
 const Home = () => {
   return (
     <>
@@ -54,22 +57,55 @@ const Home = () => {
                 text={"About Me"}
                 variant="contained"
                 size="large"
-              >
-                About Me
-              </Button>
+              />
               <Button
                 to="/portfolio"
                 color={"Red"}
                 type={"outline"}
-                text={"About Me"}
-              >
-                Checkout My Portfolio
-              </Button>
+                text={"Explore my Portfolio"}
+              />
             </div>
           </div>
         </div>
       </ImageBack>
-      <ColorBack color={"#353535"}></ColorBack>
+      <ColorBack color={"#242424"}>
+        <h6 className="__head">Proof of Work</h6>
+        <h2 className="whiteText">Web Addict made 20+ Websites in FY 2021</h2>
+        <p className="portfolio__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc auctor
+          mauris eu neque sagittis, lacinia mattis ante vehicula. Vestibulum
+          quis convallis elit. Aenean sit amet erat urna. In maximus quam
+          mauris. Quisque lobortis maximus nulla nec suscipit.
+        </p>
+        <HorizontalRow color={"white"} />
+        <div className="portfolio">
+          {ImageData.map((item, index) => {
+            return (
+              <div key={index} className="portfolio__item">
+                <img
+                  loading="lazy"
+                  className="portfolio__image"
+                  alt="UI design by Himanshu Khaitan"
+                  src={`${item.link}`}
+                />
+                <h5 className="whiteText">{item.category}</h5>
+                <div className="portfolio__overlay">
+                  <h3 className="whiteText">{item.name}</h3>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+        <div className="portfolioCta">
+          <Button
+            to="/portfolio"
+            color={"White"}
+            type={"fill"}
+            text={"Explore my Portfolio"}
+          />
+        </div>
+      </ColorBack>
+      <Footer />
     </>
   );
 };

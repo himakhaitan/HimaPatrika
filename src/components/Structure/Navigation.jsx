@@ -7,7 +7,7 @@ const Navigation = (props) => {
     <>
       <nav className="navigation">
         <div className="navigation__primary">
-          <h6 className="navigation__head">Personal Brand</h6>
+          <h6 className="__head">Personal Brand</h6>
           <h3 className="navigation__sub">
             Khaitan trying to build one for himself
           </h3>
@@ -20,7 +20,7 @@ const Navigation = (props) => {
           <h6 className="navigation__secondary_data">Volume-1 Number 8</h6>
         </div>
       </nav>
-      <HorizontalRow />
+      <HorizontalRow color={"black"} />
     </>
   );
 };

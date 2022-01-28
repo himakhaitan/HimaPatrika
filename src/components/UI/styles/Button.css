@@ -56,3 +56,25 @@
   color: #fff;
   background: #940303;
 }
+
+.buttonWhitefill {
+  background: rgba(252, 249, 245, 0.88);
+  color: #242424;
+  border: none;
+  border: 2px solid rgba(252, 249, 245, 0.88);
+}
+.buttonWhitefill:hover {
+  background: rgba(212, 212, 212, 0.88);
+  color: #242424;
+  border: 2px solid rgba(212, 212, 212, 0.88);
+}
+
+.buttonWhiteoutline {
+  background: transparent;
+  border: 2px solid rgba(252, 249, 245, 0.88);
+  color: rgba(252, 249, 245, 0.88);
+}
+.buttonWhiteoutline:hover {
+  color: #242424;
+  background: rgba(252, 249, 245, 0.88);
+}

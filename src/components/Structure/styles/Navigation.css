@@ -16,13 +16,6 @@
   .navigation__sub {
     margin-bottom: 0.5rem;
   }
-  .navigation__head {
-    font-weight: 700;
-    font-size: 1.3rem;
-    text-transform: uppercase;
-    color: #820000;
-    margin-bottom: 0.5rem;
-  }
   .navigation__secondary {
     padding: 1rem;
     align-self: flex-end;
