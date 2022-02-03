@@ -1,6 +1,9 @@
-import { SiLinktree, SiInstagram, SiDiscord, SiTwitter } from "react-icons/si";
+import { SiInstagram, SiDiscord, SiTwitter, SiRazorpay } from "react-icons/si";
 import { GrLinkedinOption } from "react-icons/gr";
 import { FiGithub } from "react-icons/fi";
+import { BsMedium } from "react-icons/bs";
+import { FaDev } from "react-icons/fa";
+
 export const PortfolioData = [
   {
     link: "./works/prateektoshniwal.webp",
@@ -41,6 +44,14 @@ export const socials = [
     link: "https://twitter.com/hima_khaitan",
   },
   {
+    icon: <BsMedium />,
+    link: "himakhaitan.medium.com",
+  },
+  {
+    icon: <FaDev />,
+    link: "https://dev.to/hima_khaitan",
+  },
+  {
     icon: <FiGithub />,
     link: "https://github.com/himakhaitan",
   },
@@ -53,8 +64,8 @@ export const socials = [
     link: "https://discord.gg/VQBd2fWVEF",
   },
   {
-    icon: <SiLinktree />,
-    link: "https://linktr.ee/hima_khaitan",
+    icon: <SiRazorpay />,
+    link: "https://rzp.io/l/Dx4bhf25y",
   },
   {
     icon: <SiInstagram />,

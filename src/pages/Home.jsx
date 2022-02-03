@@ -5,7 +5,6 @@ import Navigation from "../components/Structure/Navigation";
 import Quotes from "../components/UI/Quotes";
 import Typewriter from "typewriter-effect";
 import HorizontalRow from "../components/UI/HorizontalRow";
-import Footer from "../components/Structure/Footer";
 import { PortfolioData as ImageData } from "../data/main";
 
 const Home = () => {
@@ -55,14 +54,13 @@ const Home = () => {
                 color={"Black"}
                 type={"fill"}
                 text={"About Me"}
-                variant="contained"
-                size="large"
               />
               <Button
-                to="/portfolio"
+                to={"https://himakhaitan.medium.com/"}
+                anchor
                 color={"Red"}
                 type={"outline"}
-                text={"Explore my Portfolio"}
+                text={"Checkout My Blog"}
               />
             </div>
           </div>
@@ -72,10 +70,9 @@ const Home = () => {
         <h6 className="__head">Proof of Work</h6>
         <h2 className="whiteText">Web Addict made 20+ Websites in FY 2021</h2>
         <p className="portfolio__text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc auctor
-          mauris eu neque sagittis, lacinia mattis ante vehicula. Vestibulum
-          quis convallis elit. Aenean sit amet erat urna. In maximus quam
-          mauris. Quisque lobortis maximus nulla nec suscipit.
+          During my time as a Freelance Web Devloper I have made 20+ Websites. I
+          have made Websites for various clients and also for myself. I have
+          also managed some of the social medias as well.
         </p>
         <HorizontalRow color={"white"} />
         <div className="portfolio">
@@ -98,14 +95,14 @@ const Home = () => {
         </div>
         <div className="portfolioCta">
           <Button
-            to="/portfolio"
+            to={"https://in.pinterest.com/himakhaitan/work-by-himakhaitan/"}
+            anchor
             color={"White"}
             type={"fill"}
             text={"Explore my Portfolio"}
           />
         </div>
       </ColorBack>
-      <Footer />
     </>
   );
 };

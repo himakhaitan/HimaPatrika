@@ -18,6 +18,7 @@ const Footer = () => {
                 strings: [
                   "Software Engineer to be",
                   "Trying to be a Designer",
+                  "Writing Blogs",
                   "Implementing long term Investments",
                   "Attesting values through Personal Brand",
                   "Fighting to be an Entrepreneur",

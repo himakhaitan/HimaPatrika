@@ -62,3 +62,6 @@ p {
 .blackText {
   color: #242424;
 }
+.bold {
+  font-weight: 700;
+}
